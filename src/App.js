@@ -4,7 +4,8 @@ import Main from './components/MainComponent'
 function App() {
   return (
     <div>
-    <Main/>
+
+app component
     </div>
   );
 }
