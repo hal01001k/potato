@@ -6,10 +6,9 @@ class Main extends Component{
         return (
             <div>
                 <Header/>
-            Main comp
+                 Main comp
                 <Footer/>
             </div>
-
         );
     }
 }

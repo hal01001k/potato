@@ -1,8 +1,8 @@
 import React from 'react'
 function Footer (){
     return(
-        <div>
-            Footer
+        <div className="footer">
+            <p> This is some content in sticky footer</p>
         </div>
     )
 }
