@@ -36,6 +36,12 @@
 /*    transform: rotate(360deg);*/
 /*  }*/
 /*}*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Poppins', sans-serif;*/
 
 .footer{
   margin-top: 1rem;
@@ -48,4 +54,10 @@
 }
 .newnav {
   background-color: rgb(253, 252, 220);
+}
+.intro{
+  font-family: 'Lato', sans-serif;
+}
+.subintro{
+  font-family: 'Open Sans', sans-serif;
 }

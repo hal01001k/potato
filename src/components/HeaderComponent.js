@@ -19,15 +19,15 @@ function Header() {
             <div>
                 <Navbar color="light" light expand="md">
                     <div className={"container"}>
-                        <NavbarBrand href="/">reactstrap</NavbarBrand>
+                        <NavbarBrand>hi!</NavbarBrand>
                         <NavbarToggler onClick={toggle}/>
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="mr-auto" navbar>
                                 <NavItem>
-                                    <NavLink href="https://github.com/hal01001k">GitHub</NavLink>
+                                    <NavLink href="https://github.com/hal01001k">github</NavLink>
                                 </NavItem>
                             </Nav>
-                            <NavbarText>SimpleText</NavbarText>
+                            <NavbarText>Hitesh Daksh</NavbarText>
                         </Collapse>
                     </div>
                 </Navbar>
