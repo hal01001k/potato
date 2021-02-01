@@ -3,6 +3,7 @@ import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
 import Intro from "./IntroComponent";
 import SubIntro from "./SubIntro";
+import Project from "./ProjectSection";
 class Main extends Component{
     render(){
         return (
@@ -10,6 +11,7 @@ class Main extends Component{
                 <Header/>
                 <Intro/>
                 <SubIntro/>
+                <Project/>
                 <Footer/>
             </div>
         );

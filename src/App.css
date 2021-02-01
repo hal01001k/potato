@@ -47,7 +47,6 @@
   margin-top: 1rem;
   padding: 1rem;
   background-color: rgb(240, 113, 103);
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -60,4 +59,7 @@
 }
 .subintro{
   font-family: 'Open Sans', sans-serif;
+}
+.projectSection{
+  font-family: 'Montserrat', sans-serif;
 }
