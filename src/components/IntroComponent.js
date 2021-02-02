@@ -1,6 +1,7 @@
 import React from 'react'
 import { IntroStyle,contain } from "./Attributes"
 
+
 function Intro (){
     return(
         <div style={contain}>

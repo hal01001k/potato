@@ -64,3 +64,6 @@
 .projectSection{
   font-family: 'Montserrat', sans-serif;
 }
+.al{
+  align-items: flex-end;
+}

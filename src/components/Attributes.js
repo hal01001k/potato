@@ -28,5 +28,6 @@ export const navstyle=
     {
         fontSize:30,
         paddingLeft:"60px",
-        paddingTop:"18px"
+        paddingTop:"18px",
+
     }

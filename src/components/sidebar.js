@@ -11,9 +11,9 @@ function Sidebar() {
     const showSidebar = () => setSidebar(!sidebar);
 
     return (
-        <div>
+        <div >
             <IconContext.Provider value={{color: '#0000000'}}>
-                <div className='sidebar'>
+                <div className='sidebar mr-auto'>
                     <FaIcons.FaBars onClick={showSidebar}/>
                 </div>
                 <div className={sidebar ? 'side-menu active' : 'side-menu'}>
