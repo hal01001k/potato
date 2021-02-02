@@ -11,6 +11,7 @@ class Main extends Component{
                 <Header/>
                 <Intro/>
                 <SubIntro/>
+
                 <Project/>
                 <Footer/>
             </div>

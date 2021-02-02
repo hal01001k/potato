@@ -1,34 +1,26 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {
-    Collapse,
     Navbar,
-    NavbarToggler,
-    NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    NavbarText
+    NavLink
 } from 'reactstrap';
-
+import {navstyle} from "./Attributes";
+import Sidebar from "./sidebar";
 function Header() {
-    const Newnav = (props) => {
-        const [isOpen, setIsOpen] = useState(false);
-
-        const toggle = () => setIsOpen(!isOpen);
+    const Newnav = () => {
         return (
             <div>
-                <Navbar color="light" light expand="md">
-                    <div className={"container"}>
-                        <NavbarBrand>hi!</NavbarBrand>
-                        <NavbarToggler onClick={toggle}/>
-                        <Collapse isOpen={isOpen} navbar>
-                            <Nav className="mr-auto" navbar>
-                                <NavItem>
-                                    <NavLink href="https://github.com/hal01001k">github</NavLink>
-                                </NavItem>
-                            </Nav>
-                            <NavbarText>Hitesh Daksh</NavbarText>
-                        </Collapse>
+                <Navbar className="newnav" style={navstyle} light>
+                    <div>
+                        <Nav>
+                            <NavItem className="mr-auto">
+                                <NavLink href="https://github.com/hal01001k">github</NavLink>
+                            </NavItem>
+                            <NavItem className="navbar-nav ml-auto">
+                                <Sidebar/>
+                            </NavItem>
+                        </Nav>
                     </div>
                 </Navbar>
             </div>
@@ -36,7 +28,7 @@ function Header() {
     }
     return (
         <div>
-            <Newnav/>
+         <Newnav/>
         </div>
     )
 }

@@ -52,7 +52,8 @@
   width: 100%;
 }
 .newnav {
-  background-color: rgb(253, 252, 220);
+  background:transparent;
+  font-family: 'Poppins', sans-serif;
 }
 .intro{
   font-family: 'Lato', sans-serif;
