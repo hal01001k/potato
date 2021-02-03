@@ -60,10 +60,24 @@
 }
 .subintro{
   font-family: 'Open Sans', sans-serif;
+  background-color: #f3f3f3;
 }
 .projectSection{
   font-family: 'Montserrat', sans-serif;
 }
-.al{
-  align-items: flex-end;
+
+.img_logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.cl {
+  background-color: #C7D0FF;
+}
+.sk{
+  background-color: #eaf1f8;
+  font-family: 'Poppins', sans-serif;
+}
+.cd{
+  background-color: #cdddee;
 }

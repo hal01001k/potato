@@ -1,33 +1,61 @@
-
 export const IntroStyle =
     {
-    fontSize: 46,
-    textAlign: "left",
-    paddingTop: "250px",
-    paddingRight:"475px",
-}
-export const SubStyle =
-    {
-        fontSize: 28,
-        textAlign: "right",
-        paddingTop: "275px",
-        paddingLeft:"500px",
+        fontSize: 46,
+        textAlign: "left",
+        paddingTop: "250px",
+        paddingRight: "475px",
     }
-export const project =
+export const IntroStylesm =
     {
         fontSize: 18,
-        paddingTop: "100px"
+        paddingTop: "30px",
+        textAlign: "left",
+
+    }
+export const SubStyle =
+    {
+        fontSize: 24,
+        textAlign: "right",
+        paddingTop: "260px",
+        paddingBottom: "20px"
+    }
+export const SubStylesm =
+    {
+        fontSize: 10,
+        textAlign: "right",
+        paddingTop: "15px",
+        paddingBottom: "20px"
+    }
+export const Education =
+    {
+        fontSize: 28,
+        paddingTop: "20px"
     }
 export const contain =
     {
-        paddingLeft:"60px",
-        paddingRight: "40px"
+        paddingLeft: "60px",
+        paddingRight: "64px"
 
     }
-export const navstyle=
+export const navstyle =
     {
-        fontSize:30,
-        paddingLeft:"60px",
-        paddingTop:"18px",
+        fontSize: 48,
+        paddingLeft: "60px",
+        paddingTop: "18px",
 
     }
+export const skill =
+    {
+        fontSize:28,
+        paddingTop: "44px",
+
+    }
+export const skillsm =
+    {
+        fontSize:16,
+        paddingTop: "18px",
+    }
+    export const cdcolor={
+        backgroundColor:"#f9fbfd"
+    }
+

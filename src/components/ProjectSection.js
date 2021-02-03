@@ -1,10 +1,11 @@
 import React from 'react';
-import {project} from './Attributes'
+import 'react-vertical-timeline-component/style.min.css';
+import {contain} from './Attributes'
 function Project() {
     return (
-        <div className="container">
-            <div className="projectSection" style={project}>
-                My Projects
+        <div style={contain}>
+            <div className="projectSection">
+                My Projects:<br/>
             </div>
         </div>
     )
