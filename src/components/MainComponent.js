@@ -13,8 +13,8 @@ class Main extends Component{
                 <Header/>
                 <Intro/>
                 <SubIntro/>
-                <Project/>
                 <Skills/>
+                <Project/>
                 <EduSection/>
                 <Footer/>
             </div>

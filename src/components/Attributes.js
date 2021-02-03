@@ -17,7 +17,8 @@ export const SubStyle =
         fontSize: 24,
         textAlign: "right",
         paddingTop: "260px",
-        paddingBottom: "20px"
+        paddingBottom: "20px",
+        fontWeight:"Bold"
     }
 export const SubStylesm =
     {
@@ -46,16 +47,24 @@ export const navstyle =
     }
 export const skill =
     {
-        fontSize:28,
-        paddingTop: "44px",
+        fontSize: 48,
+        paddingTop: "30px",
+        paddingBottom: "30px"
 
     }
 export const skillsm =
     {
-        fontSize:16,
+        fontSize: 16,
         paddingTop: "18px",
     }
-    export const cdcolor={
-        backgroundColor:"#f9fbfd"
-    }
+export const sk2 = {
+    paddingLeft: "50px",
+    color:"darkblue"
+
+}
+export const sk3 = {
+    paddingLeft: "95px",
+    color:"darkgray"
+}
+
 

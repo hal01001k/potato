@@ -5,7 +5,7 @@ import {contain, Education} from './Attributes'
 
 function EduSection() {
     return (
-        <div className="cl" style={contain}>
+        <div className="cl" style={contain} >
             <div className="projectSection" style={Education}>
                 Education:<br/>
             </div>
