@@ -60,12 +60,12 @@ export const skillsm =
     }
 export const sk2 = {
     paddingLeft: "50px",
-    color: "#004a96"
+    color: "yellowgreen"//"#004a96"
 
 }
 export const sk3 = {
     paddingLeft: "95px",
-    color:"#454a4f",
+    color:"lightcoral"//"#454a4f",
 }
 export const exp = {
     fontSize:28,

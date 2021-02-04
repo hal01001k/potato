@@ -30,7 +30,8 @@
 
 .sk{
   background-color: #eef1f4;
-  font-family: 'Ubuntu', sans-serif;
+  /*font-family: 'Ubuntu', sans-serif;*/
+  font-family: 'Oxygen', sans-serif
 }
 .edu {
   font-family: 'Oxygen', sans-serif;
