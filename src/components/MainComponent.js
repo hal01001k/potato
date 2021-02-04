@@ -5,6 +5,7 @@ import Intro from "./IntroComponent";
 import SubIntro from "./SubIntro";
 import Project from "./ProjectSection";
 import EduSection from "./EducationSection";
+import Exp from "./Experience";
 import Skills  from "./Skills"
 class Main extends Component{
     render(){
@@ -13,6 +14,7 @@ class Main extends Component{
                 <Header/>
                 <Intro/>
                 <SubIntro/>
+                <Exp/>
                 <Skills/>
                 <Project/>
                 <EduSection/>

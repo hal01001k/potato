@@ -49,7 +49,7 @@
 
 .footer{
   padding: 1rem;
-  background-color: rgb(240, 113, 103);
+  background-color: lightgray;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -66,8 +66,7 @@
   background-color: #f3f3f3;
 }
 .projectSection{
-
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cantarell', sans-serif;
 }
 
 .img_logo {
@@ -75,13 +74,18 @@
   height: 60px;
   border-radius: 50%;
 }
-.cl {
-  background-color: #C7D0FF;
-}
+
 .sk{
-  background-color: #eaf1f8;
+  background-color: #eef1f4;
   font-family: 'Ubuntu', sans-serif;
 }
-.cd{
-  background-color: #cdddee;
+.edu {
+  font-family: 'Oxygen', sans-serif;
+}
+.ep{
+  font-family: 'Oxygen', sans-serif;
+  background-color: #e5e7e9;
+}
+.cl {
+  background-color: #d5d8da;
 }
