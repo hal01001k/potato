@@ -66,7 +66,6 @@ export const sk2 = {
 export const sk3 = {
     paddingLeft: "95px",
     color:"#454a4f",
-    paddingRight:"20px"
 }
 export const exp = {
     fontSize:28,
@@ -81,5 +80,10 @@ export const expsm = {
 export const project = {
     fontSize:48,
     paddingTop:"40px"
+
+}
+export const foot={
+    color:"whitesmoke",
+    fontSize:18
 
 }

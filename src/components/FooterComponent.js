@@ -1,8 +1,12 @@
 import React from 'react'
+import {contain, foot} from "./Attributes";
+
 function Footer (){
     return(
         <div className="footer">
-            <p> This is some content in sticky footer</p>
+            <div style={contain}>
+                <div style={foot} className="projectSection"> made with {"<"}3</div>
+            </div>
         </div>
     )
 }

@@ -5,8 +5,6 @@ import {
     NavItem,
     NavLink
  } from 'reactstrap';
-// import { Navbar, Nav,NavbarBrand,Form} from 'react-bootstrap';
-// import Sidebar from "./sidebar";
 import {navstyle} from "./Attributes";
 
 function Header() {
