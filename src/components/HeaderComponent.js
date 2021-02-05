@@ -5,26 +5,30 @@ import {
     NavItem,
     NavLink
  } from 'reactstrap';
-import {navstyle} from "./Attributes";
+import {navstyle,contain,containsm,navstylesm} from "./Attributes";
 
 function Header() {
     const Newnav = () => {
         return (
             <div>
-                <Navbar className="newnav" style={ navstyle } light>
-                    <Nav navbar>
-                        <NavItem>
-                            <NavLink href="https://github.com/hal01001k">github.</NavLink>
-                        </NavItem>
-                    </Nav>
-                </Navbar>
-                {/*<Navbar  >*/}
-                {/*    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>*/}
-                {/*    <Form inline>*/}
-                {/*        <Sidebar />*/}
-                {/*    </Form>*/}
-                {/*</Navbar>*/}
-
+                <div className="d-none d-lg-block" style={ navstyle }>
+                    <Navbar className="newnav" style={contain} light>
+                        <Nav navbar>
+                            <NavItem>
+                                <NavLink href="https://github.com/hal01001k">github</NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Navbar>
+                </div>
+                <div class="d-sm-none" style={navstylesm}>
+                    <Navbar className="newnav" style={containsm} light>
+                        <Nav navbar>
+                            <NavItem>
+                                <NavLink href="https://github.com/hal01001k">github</NavLink>
+                            </NavItem>
+                        </Nav>
+                    </Navbar>
+                </div>
             </div>
         );
     }

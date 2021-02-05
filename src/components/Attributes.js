@@ -38,10 +38,20 @@ export const contain =
         paddingRight: "64px"
 
     }
+
+export const containsm = {
+        paddingLeft: "20px",
+        paddingRight: "20px"
+    }
 export const navstyle =
     {
         fontSize: 48,
-        paddingLeft: "60px",
+        paddingTop: "18px",
+
+    }
+export const navstylesm =
+    {
+        fontSize: 32,
         paddingTop: "18px",
 
     }
@@ -80,6 +90,11 @@ export const expsm = {
 export const project = {
     fontSize:48,
     paddingTop:"40px"
+
+}
+export const projectsm = {
+    fontSize:28,
+    paddingTop:"20px"
 
 }
 export const foot={

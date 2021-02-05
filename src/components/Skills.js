@@ -1,9 +1,10 @@
 import React from "react";
-import { contain, skill, skillsm,sk2,sk3 } from "./Attributes";
+import { contain, skill, skillsm,sk2,sk3,containsm } from "./Attributes";
 function Skills(){
     return(
-        <div className="sk" style={contain} >
-            <div className="d-none d-lg-block" style={skill} >
+        <div className="sk" >
+            <div className="d-none d-lg-block" style={contain} >
+                <div style={skill}>
                 <text style={{paddingRight:"60px"}}>Skills :</text>  well versed;<text style={sk2}>intermediate;</text><text style={sk3}>trainee;</text><br/>
                 <hr/>
                     <p style={{textAlign:"right"}}>
@@ -25,12 +26,15 @@ function Skills(){
                     <text style={sk2}>Javascript</text>
                     <text style={sk3}>numpy</text>
                 </p>
+                </div>
             </div>
-            <div className="d-sm-none" style={ skillsm } >
+            <div className="d-sm-none" style = {containsm} >
+                <div style={ skillsm }>
                 Skills:<br/>
                 <p style={{textAlign:"right"}}>python, C, react.js, Java, Javascript<br/>
                 mongoDB, node.js ,full-stack Development, pandas<br/>
                 Data Science, machine learning, numpy</p>
+                </div>
             </div>
         </div>
     )
