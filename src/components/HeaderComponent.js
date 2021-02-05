@@ -14,7 +14,7 @@ function Header() {
                 <Navbar className="newnav" style={ navstyle } light>
                     <Nav navbar>
                         <NavItem>
-                            <NavLink href="https://github.com/hal01001k">github</NavLink>
+                            <NavLink href="https://github.com/hal01001k">github.</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
