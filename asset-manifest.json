@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/potato/static/css/main.01b47235.chunk.css",
-    "main.js": "/potato/static/js/main.41684147.chunk.js",
-    "main.js.map": "/potato/static/js/main.41684147.chunk.js.map",
+    "main.js": "/potato/static/js/main.2f587c44.chunk.js",
+    "main.js.map": "/potato/static/js/main.2f587c44.chunk.js.map",
     "runtime-main.js": "/potato/static/js/runtime-main.ec24c97b.js",
     "runtime-main.js.map": "/potato/static/js/runtime-main.ec24c97b.js.map",
     "static/css/2.cefcc735.chunk.css": "/potato/static/css/2.cefcc735.chunk.css",
-    "static/js/2.db7405e6.chunk.js": "/potato/static/js/2.db7405e6.chunk.js",
-    "static/js/2.db7405e6.chunk.js.map": "/potato/static/js/2.db7405e6.chunk.js.map",
+    "static/js/2.61869941.chunk.js": "/potato/static/js/2.61869941.chunk.js",
+    "static/js/2.61869941.chunk.js.map": "/potato/static/js/2.61869941.chunk.js.map",
     "static/js/3.001b9ae6.chunk.js": "/potato/static/js/3.001b9ae6.chunk.js",
     "static/js/3.001b9ae6.chunk.js.map": "/potato/static/js/3.001b9ae6.chunk.js.map",
     "index.html": "/potato/index.html",
     "static/css/2.cefcc735.chunk.css.map": "/potato/static/css/2.cefcc735.chunk.css.map",
     "static/css/main.01b47235.chunk.css.map": "/potato/static/css/main.01b47235.chunk.css.map",
-    "static/js/2.db7405e6.chunk.js.LICENSE.txt": "/potato/static/js/2.db7405e6.chunk.js.LICENSE.txt",
+    "static/js/2.61869941.chunk.js.LICENSE.txt": "/potato/static/js/2.61869941.chunk.js.LICENSE.txt",
     "static/media/Done.4f354baa.jpg": "/potato/static/media/Done.4f354baa.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ec24c97b.js",
     "static/css/2.cefcc735.chunk.css",
-    "static/js/2.db7405e6.chunk.js",
+    "static/js/2.61869941.chunk.js",
     "static/css/main.01b47235.chunk.css",
-    "static/js/main.41684147.chunk.js"
+    "static/js/main.2f587c44.chunk.js"
   ]
 }
