@@ -11,7 +11,7 @@ function Project() {
                         - <a href="https://mushrooms-ml1.herokuapp.com/">Ml App</a>
                     </p>
                     <p style={{ textAlign:"right" }}>
-                        - <a href="https://hal01001k.github.io/cornerstone/">website</a>
+                        - <a href="https://hal01001k.github.io/link">website</a>
                     </p>
                 </div>
             </div>
@@ -22,7 +22,7 @@ function Project() {
                         - <a href="https://mushrooms-ml1.herokuapp.com/">Ml App</a>
                     </p>
                     <p style={{ textAlign:"right" }}>
-                        - <a href="https://hal01001k.github.io/cornerstone/">website</a>
+                        - <a href="https://hal01001k.github.io/link/">website</a>
                     </p>
                 </div>
             </div>
